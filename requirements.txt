@@ -1,0 +1,6 @@
+Flask
+redis
+openai
+chromadb
+mysql.connector
+pyTelegramBotAPI

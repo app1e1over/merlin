@@ -1,0 +1,15 @@
+version: '3'
+services:
+  merlin:
+    container_name: merlin
+    build: .
+    ports:
+      - "8000:1357"
+    environment:
+      - IS_PERSISTENT=TRUE
+    volumes:
+      - ./:/app
+      - /var/lib/chroma_db
+  redis:
+    image: "redis:alpine"
+  

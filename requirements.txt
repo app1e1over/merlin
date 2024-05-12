@@ -2,5 +2,7 @@ Flask
 redis
 openai
 chromadb
-mysql.connector
+psycopg2
 pyTelegramBotAPI
+bs4
+validators
